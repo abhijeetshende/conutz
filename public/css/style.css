@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .landing-section {
   background: black;
 }
