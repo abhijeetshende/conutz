@@ -50,3 +50,8 @@
  body{
      background: rgb(241, 240, 240);
  }
+ @media (min-width: 375px) {
+     .tagline-position{
+         top: -175px;
+     }
+ }
