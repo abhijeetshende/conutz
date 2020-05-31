@@ -1,0 +1,52 @@
+.landing-section {
+  background: black;
+}
+.tagline-color {
+  color: #f3a900;
+}
+.bg-primary {
+  background: #f3a900;
+}
+
+.tagline-position {
+  position: relative;
+  top: -225px;
+  color: cornsilk;
+}
+
+.nav-logo {
+  width: 56px;
+}
+.nav-background {
+  background: black;
+  color: cornsilk;
+}
+
+.landing-section2 {
+  background: gray;
+}
+
+.color-primary {
+  color: cornsilk;
+}
+#franchise{
+  
+}
+
+.franchise-attract-text{
+    background: rgba(00,0,0,0.8);
+    border-radius: 25px;
+}
+
+@media (min-width: 768px) { 
+    #contact-us-form{
+        position: absolute;
+        /* top: -1090px; */
+        right: 30px;
+        z-index: 100
+    }
+ }
+
+ body{
+     background: rgb(241, 240, 240);
+ }
