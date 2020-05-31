@@ -32,15 +32,17 @@
           <a class="mr-5 hover:text-orange-600" href="#Home">Home</a>
           <a class="mr-5 hover:text-orange-600" href="#Aim">Our Aim</a>
           <a class="mr-5 hover:text-orange-600" href="#Recipes">Recipes</a>
-          <a class="mr-5 hover:text-orange-600" href="#franchise">Get Franchise</a>
+          <a class="mr-5 hover:text-orange-600" href="#franchise"
+            >Get Franchise</a
+          >
           <a class="mr-5 hover:text-orange-600" href="#Order">Order Now</a>
-          
+
         </nav>
       </div>
     </header>
     <!-- header end -->
     <!-- landingsection start -->
-    <section class="text-gray-700 body-font landing-section" id="Home>
+    <section class="text-gray-700 body-font landing-section" id="Home">
       <div
         class="container mx-auto flex px-5 py-5 items-center justify-center flex-col"
       >
@@ -63,6 +65,7 @@
           <div class="flex justify-center">
             <button
               class="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
+              onclick="document.location = '#franchise'"
             >
               Get Franchise
             </button>
@@ -394,14 +397,14 @@
           <img alt="content" class="object-cover object-center h-full w-full" src="./public/images/zomato.png">
         </div>
         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 text-center">Order from Zomato</h2>
-        <a class="flex mx-auto mt-6 text-white bg-red-500 border-0 py-2 px-5 focus:outline-none hover:bg-red-600 rounded text-center " href="https://www.zomato.com/pune/conutz-baner" role="button">Order Now</a>
+        <button class="flex mx-auto mt-6 text-white bg-red-500 border-0 py-2 px-5 focus:outline-none hover:bg-red-600 rounded text-center " onclick="document.location = 'https://www.zomato.com/pune/conutz-baner'"  role="button">Order Now</button>
       </div>
       <div class="sm:w-1/2 mb-10 px-4">
         <div class="rounded-lg h-64 overflow-hidden">
           <img alt="content" class=" object-center h-full w-70" src="./public/images/swiggy.png" style="margin: auto;">
         </div>
         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 text-center">Order from Swiggy</h2>
-        <a class="flex mx-auto mt-6 text-white bg-orange-500 border-0 py-2 px-5 text-center focus:outline-none hover:bg-orange-600 rounded text-center" href="https://www.swiggy.com/restaurants/conutz-baner-link-rd-aundh-pune-252003" role="button">Order Now</a>
+        <button class="flex mx-auto mt-6 text-white bg-orange-500 border-0 py-2 px-5 text-center focus:outline-none hover:bg-orange-600 rounded text-center" onclick="document.location = 'https://www.swiggy.com/restaurants/conutz-baner-link-rd-aundh-pune-252003'"  role="button">Order Now</button>
         
       </div>
     </div>
