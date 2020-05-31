@@ -58,3 +58,7 @@ html{
          top: -175px;
      }
  }
+
+ .map-height{
+   height: 512px;
+ }
