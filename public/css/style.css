@@ -19,6 +19,7 @@ html{
 
 .nav-logo {
   width: 56px;
+  border: 1px solid #f3a900;
 }
 .nav-background {
   background: black;
