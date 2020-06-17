@@ -19,7 +19,7 @@ html{
 
 .nav-logo {
   width: 56px;
-  border: 1px solid #f3a900;
+  border: 2px solid #f3a900;
 }
 .nav-background {
   background: black;
@@ -62,4 +62,13 @@ html{
 
  .map-height{
    height: 512px;
+ }
+
+ .border-orange{
+  border:1px solid #ed8936;
+ }
+
+ .model-info> li{
+  list-style: disc;
+  margin-left: 15px;
  }
